@@ -15,6 +15,7 @@
 		142575421E6D6971009E1E4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 142575401E6D6971009E1E4D /* LaunchScreen.storyboard */; };
 		1425754D1E6D6971009E1E4D /* InterceptWebviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1425754C1E6D6971009E1E4D /* InterceptWebviewTests.m */; };
 		142575581E6D6971009E1E4D /* InterceptWebviewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 142575571E6D6971009E1E4D /* InterceptWebviewUITests.m */; };
+		142575671E6D6996009E1E4D /* WebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142575661E6D6996009E1E4D /* WebViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		142575531E6D6971009E1E4D /* InterceptWebviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterceptWebviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		142575571E6D6971009E1E4D /* InterceptWebviewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterceptWebviewUITests.m; sourceTree = "<group>"; };
 		142575591E6D6971009E1E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		142575651E6D6996009E1E4D /* WebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewViewController.h; sourceTree = "<group>"; };
+		142575661E6D6996009E1E4D /* WebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				142575361E6D6971009E1E4D /* AppDelegate.m */,
 				142575381E6D6971009E1E4D /* ViewController.h */,
 				142575391E6D6971009E1E4D /* ViewController.m */,
+				142575651E6D6996009E1E4D /* WebViewViewController.h */,
+				142575661E6D6996009E1E4D /* WebViewViewController.m */,
 				1425753B1E6D6971009E1E4D /* Main.storyboard */,
 				1425753E1E6D6971009E1E4D /* Assets.xcassets */,
 				142575401E6D6971009E1E4D /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				1425753A1E6D6971009E1E4D /* ViewController.m in Sources */,
 				142575371E6D6971009E1E4D /* AppDelegate.m in Sources */,
+				142575671E6D6996009E1E4D /* WebViewViewController.m in Sources */,
 				142575341E6D6971009E1E4D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
